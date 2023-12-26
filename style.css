@@ -296,10 +296,10 @@ img.rot {
         justify-content: center;
     }
     .textBlockUs {
-        font-size: 50px;
-        height: 200px;
+        font-size: 65px;
+        height: 350px;
         width: 90%;
-        margin: 150px auto;
+        margin: 100px auto 150px auto;
     }
     .aboutUs {
         margin-top: 0px;
@@ -342,9 +342,7 @@ img.rot {
         flex-direction: row;
         align-items: start;
     }
-    .waFarm {
-        /* text-align: right; */
-    }
+
     .stackImage {
         /* background-color: aliceblue; */
         margin: 0px;
