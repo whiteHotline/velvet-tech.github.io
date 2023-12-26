@@ -243,6 +243,7 @@ img.rot {
   @media (max-width: 1090px) {
     .header {
         width: 100%;
+        position: relative;
         /* height: 0px;
         position: relative;
         display: flex;
@@ -294,14 +295,14 @@ img.rot {
         justify-content: center;
     }
     .textBlockUs {
-        font-size: 60px;
+        font-size: 65px;
         height: 200px;
         width: 90%;
         margin: 150px auto;
     }
     .aboutUs {
         margin-top: 0px;
-        margin-bottom: 300px;
+        margin-bottom: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -381,7 +382,7 @@ img.rot {
     }
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:70px;
+        font-size:75px;
         color: #C3DB60;
         font-weight: 800;
     }
