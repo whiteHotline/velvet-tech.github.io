@@ -161,13 +161,14 @@
 
 .textBlock {
     margin: 0px;
-    font-size: 42px;
+    font-size: 43px;
     height: 550px;
     width: 650px;
 }
 
 .article {
     /* background-color: aqua; */
+    /* text-align: justify; */
     margin-bottom: 0px;
     width: 720px;
     display:flex;
@@ -327,7 +328,10 @@ img.rot {
     }
     .textBlock {
         margin: 0px;
-        font-size: 35px;
+        font-size: 33px;
+        font-weight: 500;
+        text-align: justify;
+        margin: 25px;
         height: 350px;
         width: 500px;
     }
@@ -339,7 +343,7 @@ img.rot {
         align-items: start;
     }
     .waFarm {
-        text-align: right;
+        /* text-align: right; */
     }
     .stackImage {
         /* background-color: aliceblue; */
