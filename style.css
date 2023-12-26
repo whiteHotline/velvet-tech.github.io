@@ -35,6 +35,14 @@
     align-items: center;
 }
 
+.startImg {
+    display: flex;
+}
+
+.startImgMob {
+    display: none;
+}
+
 .container {
     /* background-color: red; */
     margin: 150px auto 100px auto;
@@ -107,6 +115,11 @@
 .bigImg {
     width: 30%;
     height: 50%;
+}
+
+.blank {
+    height: 30px;
+    display: none;
 }
 
 .whyUs {
@@ -191,18 +204,17 @@
 
 .footer {
     /* background-color: red; */
-    margin-top: 230px;
-    margin-bottom: 70px;
-    width: 100%;
-    display: flex;
+    
+    width: 74%;
+    /* display: flex; */
     flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
+    /* justify-content: space-between;
+    align-items: end; */
 }
 
 .footerIco {
-    width: 70%;
-    margin: 0px;
+    width: 25%;
+    margin: 0px 0px 50px 0px;
 }
 
 .contacts {
@@ -219,6 +231,7 @@
     /* background-color: #C3DB60; */
     width: 30%;
     height: 30%;
+    display: none;
 }
 img.rot {
     animation: 1s linear 0s normal none infinite running rot;
@@ -266,17 +279,17 @@ img.rot {
         /* background-color: green; */
         display:flex;
         flex-direction: row;
-        align-items: center;
-        width: 10%;
+        /* align-items: center; */
+        width: 90%;
         margin: 100px 0px 100px 0px;
     }
     .footerIco {
-        width: 100%;
+        width: 90%;
         margin: 0px;
     }
     .contacts {
     /* background-color: green; */
-        display: flex;
+        /* display: flex; */
         align-items: center;
     }
     
@@ -387,5 +400,16 @@ img.rot {
         font-size:75px;
         color: #C3DB60;
         font-weight: 800;
+    }
+    .blank {
+        height: 200px;
+        display: flex;
+    }
+    .startImg {
+        display: none;
+    }
+    
+    .startImgMob {
+        display: flex;
     }
 }
