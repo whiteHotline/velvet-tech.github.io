@@ -191,6 +191,11 @@
     align-items: end;
 }
 
+.footerIco {
+    width: 70%;
+    margin: 0px;
+}
+
 .contacts {
     display: flex;
     flex-direction: column;
