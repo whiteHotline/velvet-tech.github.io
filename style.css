@@ -267,6 +267,12 @@ img.rot {
     .startImg {
         height: 70%;
     }
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .vTechLogo {
         /* background-color: red; */
         height: 40px;
@@ -298,7 +304,7 @@ img.rot {
         letter-spacing: 2px;
     }
     .menu {
-    display: none;
+        display: none;
     }
     .container {
         /* background-color: red; */
@@ -309,13 +315,15 @@ img.rot {
         justify-content: center;
     }
     .textBlockUs {
-        font-size: 65px;
+        font-size: 60px;
         height: 350px;
         width: 90%;
+        text-align: center;
+        word-spacing: 0px;
         margin: 100px auto 150px auto;
     }
     .aboutUs {
-        margin-top: 180px;
+        margin-top: 140px;
         margin-bottom: 400px;
         display: flex;
         flex-direction: column;
@@ -327,45 +335,45 @@ img.rot {
         border-radius: 100px;
     }
     .stackBlock {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 100px 0px 100px 0px;
-    }
-    .stackBlock {
         /* background-color: red; */
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         margin: 150px 0px 50px 0px;
     }
+    .nodeJs {
+        display: flex;
+        flex-direction: column;
+    }
     .textBlock {
         margin: 0px;
-        font-size: 33px;
-        font-weight: 500;
-        text-align: justify;
+        font-size: 55px;
+        text-align: center;
+        word-spacing: 10px;
         margin: 25px;
         height: 350px;
-        width: 500px;
+        width: 930px;
     }
     .article {
         /* background-color: aqua; */
-        width: 500px;
+        width: 990px;
         display:flex;
         flex-direction: row;
-        align-items: start;
+        align-items: center;
     }
-
+    .image {
+        margin: auto;
+    }
     .stackImage {
         /* background-color: aliceblue; */
         margin: 0px;
-        width: 450px;
-        height: 450px;
+        width: 650px;
+        height: 650px;
     }
     .h2 {
         margin: 15px 35px;
         font-family: 'Unbounded', sans-serif;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: 700;
         letter-spacing: 2px;
         color: #212121;
@@ -379,13 +387,13 @@ img.rot {
     }
     .bullitText {
         font-family: 'Roboto Mono', monospace;
-        font-size: 26px;
+        font-size: 30px;
         width: 765px;
         margin: 5px 10px 5px 10px;
     }
     .bullitIco {
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
         border-radius: 19px;
     }
     .bullit {
@@ -397,7 +405,7 @@ img.rot {
     }
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:75px;
+        font-size:100px;
         color: #C3DB60;
         font-weight: 800;
     }
@@ -411,5 +419,13 @@ img.rot {
     
     .startImgMob {
         display: flex;
+    }
+    .articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:end;
+    gap: 250px;
+    margin-bottom: 150px;
     }
 }
