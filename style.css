@@ -835,3 +835,172 @@
     }
     
 }
+@media (max-width: 480px) {
+    .header {
+        /* background-color: #585d48; */
+        width: 100%;
+        height: 0px;
+        position: fixed;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 0px;
+    }
+    
+    .vTechLogo {
+        background-color: red;
+        display: none;
+        height: 40px;
+        margin-top: 30px;
+    }
+    
+    .page {
+        /* background-color: #C792EA; */
+        background-color: #212121;
+        font-family: 'Inter', sans-serif;
+        color: #EEFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .starter {
+        background-color: #C3DB60;
+        width: 100%;
+        height: 300px;
+        border-radius: 0px 0px 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .startImg {
+        display: none;
+    }
+    
+    .startImgMob {
+        display: flex;
+        width: 86%;
+        margin: 0px;
+    }
+    
+    .aboutUs {
+        width: 90%;
+        margin: 10px auto;
+        display: flex;
+        flex: row;
+        justify-content: space-around;
+    }
+    
+    .aboutUsImg{
+        display: none;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .velvetTech {
+        font-family: 'Unbounded', sans-serif;
+        font-size:30px;
+        color: #C3DB60;
+        font-weight: 1000;
+    }
+    
+    .textBlockUs {
+        /* background-color: #C3DB60; */
+        font-size: 24px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bigImg {
+        width: 30%;
+        height: 50%;
+    }
+    
+    .whyUs {
+        background-color: #C792EA;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        margin-bottom: 50px;
+    }
+    
+    .h2 {
+        margin: 15px 35px;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #212121;
+    }
+    
+    .bullit {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px auto;
+    }
+    
+    .list {
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .bullitIco {
+        height: 80px;
+        width: 80px;
+        border-radius: 19px;
+    }
+    
+    .bullitText {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 12px;
+        width: 100%;
+        margin: 5px 10px;
+    }
+    
+    .articles {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin: 50px auto;
+    }
+    
+    .stackBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+        gap: 50px;
+    }
+
+    .stackBlockMob {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .stackBlockMobJs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBlock {
+        /* background-color: #C3DB60; */
+        margin: 0px;
+        font-size: 22px;
+        height: 100%;
+        width: 90%;
+    }
+}
