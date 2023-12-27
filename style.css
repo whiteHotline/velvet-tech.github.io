@@ -888,7 +888,7 @@
     
     .aboutUs {
         width: 90%;
-        margin: 10px auto;
+        margin: 10px auto 100px auto;
         display: flex;
         flex: row;
         justify-content: space-around;
@@ -904,14 +904,14 @@
 
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:30px;
+        /* font-size:30px; */
         color: #C3DB60;
         font-weight: 1000;
     }
     
     .textBlockUs {
         /* background-color: #C3DB60; */
-        font-size: 23px;
+        font-size: 20px;
         height: 100%;
         width: 100%;
     }
@@ -932,7 +932,7 @@
     .h2 {
         margin: 15px 35px;
         font-family: 'Unbounded', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 2px;
         color: #212121;
@@ -943,7 +943,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 100px auto;
+        margin: 50px auto;
     }
     
     .list {
@@ -956,14 +956,14 @@
     }
     
     .bullitIco {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
         border-radius: 19px;
     }
     
     .bullitText {
         font-family: 'Roboto Mono', monospace;
-        font-size: 12px;
+        font-size: 9px;
         width: 100%;
         margin: 5px 10px;
     }
@@ -974,7 +974,7 @@
         flex-direction: column;
         align-items: center;
         gap: 100px;
-        margin: 50px auto;
+        margin: 20px auto;
     }
     
     .stackBlock {
