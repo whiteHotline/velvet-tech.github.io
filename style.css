@@ -906,7 +906,7 @@
     
     .aboutUs {
         width: 90%;
-        margin: 10px auto 100px auto;
+        margin: 30px auto 10px auto;
         display: flex;
         flex: row;
         justify-content: space-around;
@@ -922,9 +922,9 @@
 
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:20px;
+        font-size:23px;
         color: #C3DB60;
-        font-weight: 600;
+        font-weight: 800;
     }
     
     .textBlockUs {
@@ -949,7 +949,7 @@
     .h2 {
         margin: 15px 35px;
         font-family: 'Unbounded', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
         letter-spacing: 2px;
         color: #212121;
@@ -979,7 +979,7 @@
     }
     
     .bullitText {
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto', monospace;
         font-size: 12px;
         width: 100%;
         margin: 5px 10px;
