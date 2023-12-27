@@ -835,7 +835,7 @@
     }
     
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .header {
         /* background-color: #585d48; */
         width: 100%;
