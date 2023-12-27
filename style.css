@@ -450,8 +450,7 @@
     }
     
     .vTechLogo {
-        background-color: red;
-        display: none;
+        /* background-color: red; */
         height: 40px;
         margin-top: 30px;
     }
@@ -922,14 +921,14 @@
 
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        /* font-size:30px; */
+        font-size:20px;
         color: #C3DB60;
         font-weight: 1000;
     }
     
     .textBlockUs {
         /* background-color: #C3DB60; */
-        font-size: 20px;
+        font-size: 17px;
         height: 100%;
         width: 100%;
     }
