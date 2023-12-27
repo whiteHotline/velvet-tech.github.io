@@ -11,7 +11,7 @@
 
 .vTechLogo {
     /* background-color: red; */
-    height: 50px;
+    height: 40px;
     margin-top: 30px;
 }
 
@@ -49,7 +49,7 @@
 
 .aboutUs {
     width: 80%;
-    margin: 70px auto;
+    margin: 100px auto;
     display: flex;
     flex: row;
     justify-content: space-around;
@@ -63,11 +63,10 @@
 .menu {
     width: 100%;
     background-color: #212121;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 10%;
     position: fixed;
-    bottom: -25px;
-    right: 0px;
+    bottom: -15px;
     display: flex;
     flex-direction: row-reverse;
     padding-right: 30px;
@@ -83,7 +82,7 @@
 }
 
 .menuLink:hover {
-    font-size: 44px;
+    font-size: 35px;
     color: #C3DB60;
 }
 
@@ -216,183 +215,623 @@
     font-size: 26px;
     letter-spacing: 2px;
 }
-
-@media (max-width: 1090px) {
-
-}
-
-  @media (max-width: 1090px) {
+@media (max-width: 1400px) {
     .header {
+        /* background-color: #585d48; */
         width: 100%;
-        position: relative;
-        /* height: 0px;
-        position: relative;
+        height: 0px;
+        position: fixed;
         display: flex;
         flex-direction: row-reverse;
-        padding-top: 0px; */
+        padding-top: 0px;
     }
-    .startImg {
-        height: 70%;
-    }
-    .page {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+    
     .vTechLogo {
         /* background-color: red; */
-        height: 40px;
-        margin-top: 30px;
-    }
-    .rot {
         display: none;
     }
-    .footer {
-        /* background-color: green; */
-        display:flex;
-        flex-direction: row;
-        /* align-items: center; */
-        width: 90%;
-        margin: 100px 0px 100px 0px;
+    
+    .page {
+        /* background-color: #C792EA; */
+        background-color: #212121;
+        font-family: 'Inter', sans-serif;
+        color: #EEFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
     }
-    .footerIco {
-        width: 90%;
-        margin: 0px;
-    }
-    .contacts {
-    /* background-color: green; */
-        /* display: flex; */
+    
+    .starter {
+        background-color: #C3DB60;
+        width: 100%;
+        height: 320px;
+        border-radius: 0px 0px 100px 100px;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
     
-    .contacts_text {
-        font-size: 34px;
-        letter-spacing: 2px;
+    .startImg {
+        display: flex;
+        width: 50%;
+        margin: 0px;
     }
-    .menu {
+    
+    .startImgMob {
         display: none;
     }
-    .container {
-        /* background-color: red; */
-        margin: 250px 50px 0px 50px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .textBlockUs {
-        font-size: 60px;
-        height: 350px;
-        width: 90%;
-        text-align: center;
-        word-spacing: 0px;
-        margin: 100px auto 150px auto;
-    }
+    
     .aboutUs {
-        margin-top: 140px;
-        margin-bottom: 400px;
+        /* background-color: #C792EA; */
+        width: 80%;
+        margin: 100px auto;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex: row;
+        justify-content: space-around;
     }
+    
     .aboutUsImg{
-        display: none;
-        width: 60%;
-        border-radius: 100px;
-    }
-    .stackBlock {
-        /* background-color: red; */
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        margin: 150px 0px 50px 0px;
-    }
-    .nodeJs {
-        display: flex;
-        flex-direction: column;
-    }
-    .textBlock {
-        margin: 0px;
-        font-size: 55px;
-        text-align: center;
-        word-spacing: 10px;
-        margin: 25px;
+        width: 350px;
         height: 350px;
-        width: 930px;
+        border-radius: 60px;
     }
-    .article {
-        /* background-color: aqua; */
-        width: 990px;
-        display:flex;
-        flex-direction: row;
-        align-items: center;
+    
+    .menu {
+        width: 100%;
+        background-color: #212121;
+        font-size: 25px;
+        letter-spacing: 10%;
+        position: fixed;
+        bottom: -15px;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 30px;
     }
-    .image {
-        margin: auto;
+    
+    .menuText {
+        margin-top: 0px;
     }
-    .stackImage {
-        /* background-color: aliceblue; */
-        margin: 0px;
-        width: 650px;
-        height: 650px;
+    
+    .menuLink {
+        text-decoration: none;
+        color: #EEFFFF;
     }
-    .h2 {
-        margin: 15px 35px;
+    
+    .menuLink:hover {
+        font-size: 35px;
+        color: #C3DB60;
+    }
+    
+    .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size: 50px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        color: #212121;
+        font-size:36px;
+        color: #C3DB60;
+        font-weight: 1000;
     }
+    
+    .textBlockUs {
+        /* background-color: #C3DB60; */
+        font-size: 32px;
+        height: 300px;
+        width: 65%;
+    }
+    
+    .bigImg {
+        width: 30%;
+        height: 50%;
+    }
+    
     .whyUs {
         background-color: #C792EA;
         display: flex;
         justify-content: center;
-        border-radius: 30px;
+        border-radius: 15px;
         margin-bottom: 50px;
     }
-    .bullitText {
-        font-family: 'Roboto Mono', monospace;
-        font-size: 30px;
-        width: 765px;
-        margin: 5px 10px 5px 10px;
+    
+    .h2 {
+        margin: 15px 35px;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #212121;
     }
-    .bullitIco {
-        height: 120px;
-        width: 120px;
-        border-radius: 19px;
-    }
+    
     .bullit {
-        margin-top: 10px;
+        width: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 200px;
+        margin: 50px auto;
     }
+    
+    .list {
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .bullitIco {
+        height: 90px;
+        width: 90px;
+        border-radius: 19px;
+    }
+    
+    .bullitText {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 22px;
+        width: 100%;
+        margin: 5px 10px;
+    }
+    
+    .articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin: 150px auto;
+    }
+    
+    .stackBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+        gap: 50px;
+    }
+
+    .stackBlockMob {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }   
+
+    .textBlock {
+        /* background-color: #C3DB60; */
+        margin: 0px;
+        font-size: 32px;
+        height: 150px;
+        width: 550px;
+    }
+    
+    .article {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stackImage {
+        /* background-color: aliceblue; */
+        margin: 0px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .footer {
+        /* background-color: red; */
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 50px;
+    }
+    
+    .contacts_text {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .header {
+        /* background-color: #585d48; */
+        width: 100%;
+        height: 0px;
+        position: fixed;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 0px;
+    }
+    
+    .vTechLogo {
+        background-color: red;
+        display: none;
+        height: 40px;
+        margin-top: 30px;
+    }
+    
+    .page {
+        /* background-color: #C792EA; */
+        background-color: #212121;
+        font-family: 'Inter', sans-serif;
+        color: #EEFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .starter {
+        background-color: #C3DB60;
+        width: 100%;
+        height: 320px;
+        border-radius: 0px 0px 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .startImg {
+        display: none;
+        display: flex;
+        width: 70%;
+        margin: 0px;
+    }
+    
+    .startImgMob {
+        display: none;
+    }
+    
+    .aboutUs {
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+        flex: row;
+        justify-content: space-around;
+    }
+    
+    .aboutUsImg{
+        width: 280px;
+        height: 280px;
+        border-radius: 50px;
+    }
+    
+    .menu {
+        display: none;
+    }
+
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:100px;
+        font-size:29px;
         color: #C3DB60;
-        font-weight: 800;
+        font-weight: 1000;
     }
-    .blank {
-        height: 200px;
+    
+    .textBlockUs {
+        /* background-color: #C3DB60; */
+        font-size: 21px;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .bigImg {
+        width: 30%;
+        height: 50%;
+    }
+    
+    .whyUs {
+        background-color: #C792EA;
         display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        margin-bottom: 50px;
     }
+    
+    .h2 {
+        margin: 15px 35px;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #212121;
+    }
+    
+    .bullit {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto;
+    }
+    
+    .list {
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .bullitIco {
+        height: 90px;
+        width: 90px;
+        border-radius: 19px;
+    }
+    
+    .bullitText {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+        width: 100%;
+        margin: 5px 10px;
+    }
+    
+    .articles {
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin: 150px auto;
+    }
+    
+    .stackBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+        gap: 50px;
+    }
+
+    .stackBlockMob {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .stackBlockMobJs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBlock {
+        /* background-color: #C3DB60; */
+        margin: 0px;
+        font-size: 22px;
+        height: 150px;
+        width: 550px;
+    }
+    
+    .article {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stackImage {
+        /* background-color: aliceblue; */
+        margin: 0px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .footer {
+        /* background-color: red; */
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 10px;
+    }
+    
+    .contacts_text {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .header {
+        /* background-color: #585d48; */
+        width: 100%;
+        height: 0px;
+        position: fixed;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 0px;
+    }
+    
+    .vTechLogo {
+        background-color: red;
+        display: none;
+        height: 40px;
+        margin-top: 30px;
+    }
+    
+    .page {
+        /* background-color: #C792EA; */
+        background-color: #212121;
+        font-family: 'Inter', sans-serif;
+        color: #EEFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .starter {
+        background-color: #C3DB60;
+        width: 100%;
+        height: 320px;
+        border-radius: 0px 0px 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .startImg {
         display: none;
     }
     
     .startImgMob {
         display: flex;
+        width: 70%;
+        margin: 0px;
     }
+    
+    .aboutUs {
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+        flex: row;
+        justify-content: space-around;
+    }
+    
+    .aboutUsImg{
+        display: none;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .velvetTech {
+        font-family: 'Unbounded', sans-serif;
+        font-size:30px;
+        color: #C3DB60;
+        font-weight: 1000;
+    }
+    
+    .textBlockUs {
+        /* background-color: #C3DB60; */
+        font-size: 32px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .bigImg {
+        width: 30%;
+        height: 50%;
+    }
+    
+    .whyUs {
+        background-color: #C792EA;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        margin-bottom: 50px;
+    }
+    
+    .h2 {
+        margin: 15px 35px;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #212121;
+    }
+    
+    .bullit {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px auto;
+    }
+    
+    .list {
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .bullitIco {
+        height: 80px;
+        width: 80px;
+        border-radius: 19px;
+    }
+    
+    .bullitText {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 14px;
+        width: 100%;
+        margin: 5px 10px;
+    }
+    
     .articles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:end;
-    gap: 250px;
-    margin-bottom: 150px;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        margin: 50px auto;
     }
+    
+    .stackBlock {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 50px 0px 50px 0px;
+        gap: 50px;
+    }
+
+    .stackBlockMob {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .stackBlockMobJs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBlock {
+        /* background-color: #C3DB60; */
+        margin: 0px;
+        font-size: 22px;
+        height: 150px;
+        width: 90%;
+    }
+    
+    .article {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stackImage {
+        /* background-color: aliceblue; */
+        margin: 0px;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .footer {
+        /* background-color: red; */
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 10px;
+    }
+    
+    .contacts_text {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
 }
