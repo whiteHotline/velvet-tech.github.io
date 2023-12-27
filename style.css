@@ -711,14 +711,14 @@
 
     .velvetTech {
         font-family: 'Unbounded', sans-serif;
-        font-size:30px;
+        font-size:26px;
         color: #C3DB60;
         font-weight: 1000;
     }
     
     .textBlockUs {
         /* background-color: #C3DB60; */
-        font-size: 28px;
+        font-size: 24px;
         height: 100%;
         width: 100%;
     }
@@ -979,7 +979,7 @@
     
     .bullitText {
         font-family: 'Roboto Mono', monospace;
-        font-size: 11px;
+        font-size: 12px;
         width: 100%;
         margin: 5px 10px;
     }
@@ -1015,7 +1015,7 @@
     .textBlock {
         /* background-color: #C3DB60; */
         margin: 0px;
-        font-size: 22px;
+        font-size: 20px;
         height: 100%;
         width: 90%;
     }
