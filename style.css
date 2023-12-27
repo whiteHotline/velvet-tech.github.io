@@ -1,5 +1,6 @@
 
 .header {
+    /* background-color: #585d48; */
     width: 100%;
     height: 0px;
     position: fixed;
@@ -10,11 +11,12 @@
 
 .vTechLogo {
     /* background-color: red; */
-    height: 45px;
+    height: 50px;
     margin-top: 30px;
 }
 
 .page {
+    /* background-color: #C792EA; */
     background-color: #212121;
     font-family: 'Inter', sans-serif;
     color: #EEFFFF;
@@ -37,19 +39,25 @@
 
 .startImg {
     display: flex;
+    width: 70%;
+    margin: auto;
 }
 
 .startImgMob {
     display: none;
 }
 
-.container {
-    /* background-color: red; */
-    margin: 150px auto 100px auto;
-    width: 100%;
+.aboutUs {
+    width: 80%;
+    margin: 70px auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex: row;
+    justify-content: space-around;
+}
+
+.aboutUsImg{
+    width: 520px;
+    border-radius: 100px;
 }
 
 .menu {
@@ -85,19 +93,6 @@
     margin-top: -100px;
 }
 
-.aboutUs {
-    margin-top: 100px;
-    margin-bottom: 25px;
-    display: flex;
-    flex: row;
-    justify-content: space-around;
-}
-
-.aboutUsImg{
-    width: 520px;
-    border-radius: 100px;
-}
-
 .velvetTech {
     font-family: 'Unbounded', sans-serif;
     font-size:50px;
@@ -106,6 +101,7 @@
 }
 
 .textBlockUs {
+    /* background-color: #C3DB60; */
     font-size: 43px;
     height: 500px;
     width: 700px;
@@ -140,29 +136,40 @@
 }
 
 .bullit {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 200px auto;
 }
 
 .list {
-    margin: 10px auto 10px auto;
+    margin: 15px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
+    width: 100%;
 }
+
 .bullitIco {
     height: 90px;
     width: 90px;
     border-radius: 19px;
 }
+
 .bullitText {
     font-family: 'Roboto Mono', monospace;
     font-size: 22px;
-    width: 765px;
-    margin: 5px 10px 5px 10px;
+    width: 80%;
+    margin: 5px 10px;
+}
+
+.articles {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .stackBlock {
@@ -170,6 +177,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 150px 0px 150px 0px;
+    gap: 50px;
 }
 
 .textBlock {
@@ -180,10 +188,7 @@
 }
 
 .article {
-    /* background-color: aqua; */
-    /* text-align: justify; */
-    margin-bottom: 0px;
-    width: 720px;
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -196,30 +201,15 @@
     height: 500px;
 }
 
-.divider {
-    /* background-color: green; */
-    margin-bottom: 20px;
-    size: 100%;
-}
-
 .footer {
     /* background-color: red; */
-    
-    width: 74%;
-    /* display: flex; */
-    flex-direction: row;
-    /* justify-content: space-between;
-    align-items: end; */
-}
-
-.footerIco {
-    width: 25%;
-    margin: 0px 0px 60px 0px;
-}
-
-.contacts {
+    width: 70%;
+    height: 500px;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
+    align-items: start;
+    margin-bottom: 30px;
 }
 
 .contacts_text {
@@ -227,32 +217,9 @@
     letter-spacing: 2px;
 }
 
-.rot {
-    /* background-color: #C3DB60; */
-    width: 30%;
-    height: 30%;
-    display: none;
+@media (max-width: 1090px) {
+
 }
-img.rot {
-    animation: 1s linear 0s normal none infinite running rot;
-    -webkit-animation: 10s linear 0s normal none infinite running rot;
-  }
-  @keyframes rot {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @-webkit-keyframes rot {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
 
   @media (max-width: 1090px) {
     .header {
